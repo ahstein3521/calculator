@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link href='https://fonts.googleapis.com/css?family=Orbitron:400,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class='title'>
+		<h1>Calculator</h1>
+	</div>
+	<div class="calc">
+  		<div id="screen"></div>
+	  	<div class="keypad">
+	  		<div class = "col">
+	    		<button class="btn-red" data-onclick="togglePower">AC</button>
+	    		<button  data-onclick="appendDigit">7</button>
+	    		<button  data-onclick="appendDigit">4</button>
+	    		<button  data-onclick="appendDigit">1</button>
+	    		<button  data-onclick="appendDigit">0</button>
+	    	</div>
+	    	<div class="col">
+				<button class="btn-red" data-onclick="removeDigit">CE</button>
+	    		<button  data-onclick="appendDigit">8</button>
+				<button  data-onclick="appendDigit">5</button>
+	    		<button  data-onclick="appendDigit">2</button>
+				<button  data-onclick="appendExpression">-</button>
+			</div>
+			<div class="col">		
+	    		<button  data-onclick="appendExpression">%</button>
+	    		<button  data-onclick="appendDigit">9</button>
+				<button  data-onclick="appendDigit">6</button>
+				<button  data-onclick="appendDigit">3</button>
+				<button  data-onclick="handleDecimal">.</button>
+			</div>
+			<div class="col">
+	    		<button  data-onclick="appendExpression">/</button>
+	    		<button  data-onclick="appendExpression">*</button>	
+	    		<button class="plus" data-onclick="appendExpression">+</button>
+	    		<button  data-onclick='evaluate'>=</button>    		
+	    	</div>
+	    </div>	
+	</div>	        
+<!--  	<footer>
+ 		<a href="#">View Repository</a>
+  		<p>Adam Stein 2016&copy</p>
+  	</footer> -->
+ 	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

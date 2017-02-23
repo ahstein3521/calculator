@@ -1,0 +1,25 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A javascript calculator that handles basic arithmetic",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "static-server": "^2.0.4",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "^4.3.11"
+  },
+  "author": "Adam Stein",
+  "license": "ISC"
+}
